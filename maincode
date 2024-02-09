@@ -1,0 +1,38 @@
+#include <Servo.h>
+
+Servo servol;
+
+Servo servo2;
+
+int joyx = 0 
+
+int joyY= 1 :
+
+int servoVal;
+
+void setup()
+
+}
+
+
+servol.attach(3); 
+servo2.attach(5);
+
+}
+
+void loop()
+{
+
+servoval = analogRead(joyX);
+
+servoval map (servoval, 0, 1023, 0, 180); 
+
+servol.write(servoval);
+
+servoval analogRead(joyY);
+
+servoval map (servoval, 0, 1023, 70, 180);
+
+ servo2.write (servoVal);
+
+delay(15);
